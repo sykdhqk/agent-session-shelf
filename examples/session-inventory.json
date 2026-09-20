@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "title": "Synthetic agent workspace",
+  "asOf": "2026-01-10T12:00:00Z",
+  "policy": {
+    "inactiveHours": 48,
+    "graceHours": 72,
+    "maxEvidenceAgeHours": 24
+  },
+  "sessions": [
+    {
+      "id": "S1",
+      "title": "Merged adapter fix",
+      "repository": "sample/agent-lab",
+      "lastActivityAt": "2026-01-05T10:00:00Z",
+      "checkedAt": "2026-01-10T11:00:00Z",
+      "running": false,
+      "dirty": false,
+      "pinned": false,
+      "archivedAt": null,
+      "pullRequests": [
+        {
+          "number": 101,
+          "state": "merged"
+        }
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Recently archived tests",
+      "repository": "sample/agent-lab",
+      "lastActivityAt": "2026-01-05T10:00:00Z",
+      "checkedAt": "2026-01-10T11:00:00Z",
+      "running": false,
+      "dirty": false,
+      "pinned": false,
+      "archivedAt": "2026-01-09T00:00:00Z",
+      "pullRequests": [
+        {
+          "number": 102,
+          "state": "merged"
+        }
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Archived documentation",
+      "repository": "sample/agent-lab",
+      "lastActivityAt": "2026-01-05T10:00:00Z",
+      "checkedAt": "2026-01-10T11:00:00Z",
+      "running": false,
+      "dirty": false,
+      "pinned": false,
+      "archivedAt": "2026-01-05T12:00:00Z",
+      "pullRequests": [
+        {
+          "number": 103,
+          "state": "merged"
+        }
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "Unsaved local work",
+      "repository": "sample/agent-lab",
+      "lastActivityAt": "2026-01-05T10:00:00Z",
+      "checkedAt": "2026-01-10T11:00:00Z",
+      "running": false,
+      "dirty": true,
+      "pinned": false,
+      "archivedAt": null,
+      "pullRequests": [
+        {
+          "number": 104,
+          "state": "merged"
+        }
+      ]
+    },
+    {
+      "id": "S5",
+      "title": "Review still open",
+      "repository": "sample/agent-lab",
+      "lastActivityAt": "2026-01-05T10:00:00Z",
+      "checkedAt": "2026-01-10T11:00:00Z",
+      "running": false,
+      "dirty": false,
+      "pinned": false,
+      "archivedAt": null,
+      "pullRequests": [
+        {
+          "number": 105,
+          "state": "open"
+        }
+      ]
+    },
+    {
+      "id": "S6",
+      "title": "Old evidence snapshot",
+      "repository": "sample/agent-lab",
+      "lastActivityAt": "2026-01-05T10:00:00Z",
+      "checkedAt": "2026-01-08T11:00:00Z",
+      "running": false,
+      "dirty": false,
+      "pinned": false,
+      "archivedAt": null,
+      "pullRequests": [
+        {
+          "number": 106,
+          "state": "merged"
+        }
+      ]
+    },
+    {
+      "id": "S7",
+      "title": "No PR evidence",
+      "repository": "sample/agent-lab",
+      "lastActivityAt": "2026-01-05T10:00:00Z",
+      "checkedAt": "2026-01-10T11:00:00Z",
+      "running": false,
+      "dirty": false,
+      "pinned": false,
+      "archivedAt": null,
+      "pullRequests": []
+    },
+    {
+      "id": "S8",
+      "title": "Pinned investigation",
+      "repository": "sample/agent-lab",
+      "lastActivityAt": "2026-01-05T10:00:00Z",
+      "checkedAt": "2026-01-10T11:00:00Z",
+      "running": false,
+      "dirty": false,
+      "pinned": true,
+      "archivedAt": null,
+      "pullRequests": [
+        {
+          "number": 108,
+          "state": "merged"
+        }
+      ]
+    },
+    {
+      "id": "S9",
+      "title": "Agent still running",
+      "repository": "sample/agent-lab",
+      "lastActivityAt": "2026-01-05T10:00:00Z",
+      "checkedAt": "2026-01-10T11:00:00Z",
+      "running": true,
+      "dirty": false,
+      "pinned": false,
+      "archivedAt": null,
+      "pullRequests": [
+        {
+          "number": 109,
+          "state": "merged"
+        }
+      ]
+    }
+  ]
+}
